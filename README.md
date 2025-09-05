@@ -1,3 +1,11 @@
+<p align="center">
+
+&nbsp; <img src="bank\_logo.jpg" alt="Bank Logo" width="200"/>
+
+</p>
+
+
+
 \# 🏦 Bank Loan Insights — Power BI Project
 
 
@@ -41,6 +49,9 @@ Bank Loan Insights/
 │── README.md # Project documentation
 
 
+
+
+
 ---
 
 
@@ -59,29 +70,25 @@ Bank Loan Insights/
 
 \### Key Columns
 
-| Field | Description |
+\- `loan\_amount` → Original loan principal issued  
 
-|-------|-------------|
+\- `int\_rate` → Interest rate charged  
 
-| `loan\_amount` | Original loan principal issued |
+\- `installment` → Monthly installment  
 
-| `int\_rate` | Interest rate charged |
+\- `loan\_status` → Repayment outcome (Fully Paid, Charged Off, Current, etc.)  
 
-| `installment` | Monthly installment |
+\- `annual\_income` → Reported borrower income  
 
-| `loan\_status` | Repayment outcome (Fully Paid, Charged Off, Current, etc.) |
+\- `dti` → Debt-to-Income ratio  
 
-| `annual\_income` | Reported borrower income |
+\- `grade`, `sub\_grade` → Credit grade assigned  
 
-| `dti` | Debt-to-Income ratio |
+\- `emp\_length` → Borrower’s employment length  
 
-| `grade` / `sub\_grade` | Credit grade assigned |
+\- `home\_ownership` → Rent, Mortgage, Own, etc.  
 
-| `emp\_length` | Borrower’s employment length |
-
-| `home\_ownership` | Rent, Mortgage, Own, etc. |
-
-| `address\_state` | Borrower’s state of residence |
+\- `address\_state` → Borrower’s state of residence  
 
 
 
@@ -93,33 +100,15 @@ Bank Loan Insights/
 
 
 
-1\. \*\*Portfolio Health Monitoring\*\*  
+\- \*\*Portfolio Health Monitoring\*\* → Loan performance by repayment status.  
 
-&nbsp;  - Loan performance by status (Fully Paid, Charged Off, Current).  
+\- \*\*Revenue \& Risk Analysis\*\* → Loan amount issued vs. payments collected.  
 
+\- \*\*Borrower Segmentation\*\* → Income, employment, home ownership, geography.  
 
+\- \*\*Credit Risk Evaluation\*\* → Default rate by grade, DTI, interest rate.  
 
-2\. \*\*Revenue \& Risk Analysis\*\*  
-
-&nbsp;  - Loan amount issued vs. total payments collected.  
-
-
-
-3\. \*\*Borrower Segmentation\*\*  
-
-&nbsp;  - By income, employment length, home ownership, and geography.  
-
-
-
-4\. \*\*Credit Risk Evaluation\*\*  
-
-&nbsp;  - Default rate by credit grade, DTI, and interest rate.  
-
-
-
-5\. \*\*Geographical Risk Mapping\*\*  
-
-&nbsp;  - Regional exposure and charge-off concentrations.  
+\- \*\*Geographical Risk Mapping\*\* → Regional loan exposure \& charge-off trends.  
 
 
 
@@ -135,7 +124,11 @@ Bank Loan Insights/
 
 High-level KPIs and loan performance metrics.  
 
-!\[Overview Dashboard](overview.jpg)
+<p align="center">
+
+&nbsp; <img src="overview.jpg" alt="Overview Dashboard" width="600"/>
+
+</p>
 
 
 
@@ -147,7 +140,11 @@ High-level KPIs and loan performance metrics.
 
 Loan distributions, borrower segmentation, repayment performance.  
 
-!\[Detailed Insights](details.jpg)
+<p align="center">
+
+&nbsp; <img src="details.jpg" alt="Detailed Insights" width="600"/>
+
+</p>
 
 
 
@@ -159,7 +156,11 @@ Loan distributions, borrower segmentation, repayment performance.
 
 Concise insights for management-level reporting.  
 
-!\[Summary Dashboard](summary.jpg)
+<p align="center">
+
+&nbsp; <img src="summary.jpg" alt="Summary Dashboard" width="600"/>
+
+</p>
 
 
 
@@ -171,9 +172,9 @@ Concise insights for management-level reporting.
 
 
 
-\- \*\*\[Analytical BI Report (PDF)](analytical\_BI\_report.pdf)\*\*  
+\- 📄 \[Analytical BI Report (PDF)](analytical\_BI\_report.pdf)  
 
-\- \*\*\[Interactive Power BI Dashboard (.pbix)](bank\_loan\_data\_insights%20(1).pbix)\*\*  
+\- 📊 \[Interactive Power BI Dashboard (.pbix)](bank\_loan\_data\_insights%20(1).pbix)  
 
 
 
@@ -185,13 +186,13 @@ Concise insights for management-level reporting.
 
 
 
-\- \*\*Data Storage\*\*: Excel dataset (`.xlsx`)  
+\- \*\*Data Storage\*\* → Excel dataset (`.xlsx`)  
 
-\- \*\*Visualization\*\*: Power BI  
+\- \*\*Visualization\*\* → Power BI  
 
-\- \*\*Data Transformation\*\*: Power Query (ETL)  
+\- \*\*Data Transformation\*\* → Power Query (ETL)  
 
-\- \*\*Languages\*\*: SQL, DAX for calculated fields and KPIs  
+\- \*\*Languages\*\* → SQL, DAX  
 
 
 
@@ -203,13 +204,13 @@ Concise insights for management-level reporting.
 
 
 
-\- 🔹 Borrowers with \*\*higher debt-to-income (DTI) ratios\*\* show higher default probability.  
+\- 📉 Borrowers with \*\*higher DTI ratios\*\* → higher default probability.  
 
-\- 🔹 \*\*Grade E \& F loans\*\* carry higher risk but also higher interest revenue.  
+\- 🏷️ \*\*Grade E \& F loans\*\* → high risk but higher interest returns.  
 
-\- 🔹 \*\*Renters with <1 year employment\*\* show elevated charge-off rates.  
+\- 🏠 Renters with \*\*<1 year employment\*\* → elevated charge-off rates.  
 
-\- 🔹 Certain \*\*states\*\* exhibit higher delinquency patterns, requiring targeted credit policy.  
+\- 🌍 Certain \*\*states\*\* → higher delinquency patterns (regional risk).  
 
 
 
@@ -229,19 +230,21 @@ Concise insights for management-level reporting.
 
 
 
-2.Navigate to the Bank Loan Insights folder.
+
+
+Navigate to the Bank Loan Insights folder.
 
 
 
-3\. Open the .pbix file in Power BI Desktop for interactive analysis.
+Open the .pbix file in Power BI Desktop for interactive analysis.
 
 
 
-4\. Review analytical\_BI\_report.pdf for a static version of insights.
+Review analytical\_BI\_report.pdf for a static version of insights.
 
 
 
-5\. Use financial\_loan.xlsx as the data source if reloading or modifying dashboards.
+Use financial\_loan.xlsx as the data source if reloading dashboards.
 
 
 
